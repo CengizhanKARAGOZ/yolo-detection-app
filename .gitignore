@@ -14,9 +14,8 @@ env/
 *.swp
 *.swo
 
-# YOLO model files (büyük dosyalar)
-*.pt
-!yolo11n.pt
+# YOLO model files
+models/*.pt
 
 # Temporary files
 *.tmp
@@ -35,10 +34,3 @@ Thumbs.db
 # Test files
 test_images/
 test_videos/
-
-# Models (large files)
-models/*.pt
-!models/.gitkeep
-```
-
-**models/.gitkeep**
